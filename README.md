@@ -1,6 +1,6 @@
-# wp-plugin-boilerplate
+# gravityforms-lianamailer
 
-> A boilerplate WordPress plugin
+> GravityForms integration with LianaMailer
 
 ## Requirements
 
@@ -60,7 +60,7 @@ Setup new plugin
 
 ### Translations
 
-Rebuild POT files (after this, copy to each language as `languages/wp-plugin-boilerplate-<langcode>.po` and translate it)
+Rebuild POT files (after this, copy to each language as `languages/gravityforms-lianamailer-<langcode>.po` and translate it)
 
     npm run lang:pot
 

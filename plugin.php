@@ -1,15 +1,15 @@
 <?php
 /*
-Plugin Name:        Plugin Boilerplate
+Plugin Name:        Gravityforms LianaMailer
 Plugin URI:         http://genero.fi
-Description:        A boilerplate WordPress plugin
+Description:        GravityForms integration with LianaMailer
 Version:            0.1.0
 Author:             Genero
 Author URI:         http://genero.fi/
 License:            MIT License
 License URI:        http://opensource.org/licenses/MIT
 */
-namespace GeneroWP\PluginBoilerplate;
+namespace GeneroWP\GravityformsLianamailer;
 
 use Puc_v4_Factory;
 use GeneroWP\Common\Singleton;
@@ -29,10 +29,10 @@ class Plugin
     use Assets;
 
     public $version = '0.1.0';
-    public $plugin_name = 'wp-plugin-boilerplate';
+    public $plugin_name = 'gravityforms-lianamailer';
     public $plugin_path;
     public $plugin_url;
-    public $github_url = 'https://github.com/generoi/wp-plugin-boilerplate';
+    public $github_url = 'https://github.com/generoi/gravityforms-lianamailer';
 
     public function __construct()
     {

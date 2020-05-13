@@ -9,10 +9,10 @@ class RoboFile extends \Robo\Tasks
     use \Generoi\Robo\Task\Placeholder\loadTasks;
     use \Generoi\Robo\Command\SearchReplaceCommand;
 
-    public $machineName = 'wp-plugin-boilerplate';
-    public $name = 'Plugin Boilerplate';
-    public $namespace = 'PluginBoilerplate';
-    public $description = 'A boilerplate WordPress plugin';
+    public $machineName = 'gravityforms-lianamailer';
+    public $name = 'Gravityforms LianaMailer';
+    public $namespace = 'GravityformsLianamailer';
+    public $description = 'GravityForms integration with LianaMailer';
 
     public function rename($machineName = null, $options = [
         'force' => false,
