@@ -5,10 +5,10 @@ namespace GeneroWP\GravityformsLianamailer;
 use Exception;
 use GeneroWP\Common\Singleton;
 use GeneroWP\GravityformsLianamailer\LianaMailer\LianaMailerApi;
+use GeneroWP\GravityformsLianamailer\LianaMailer\LianaMailerApi\RestClientAuthorizationException;
 use GFFeedAddOn;
 use GFCommon;
 use GFForms;
-use RestClientAuthorizationException;
 
 GFForms::include_feed_addon_framework();
 
