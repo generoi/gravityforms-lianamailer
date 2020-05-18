@@ -100,6 +100,7 @@ class LianaMailerApi
             $recipientIds,
             $options['noauto'],
             $options['reason'],
+            $options['admin'],
             $options['truncate'],
             $options['origin'],
             $options['rejoin'],
