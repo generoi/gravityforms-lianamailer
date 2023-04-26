@@ -157,7 +157,7 @@ class LianaMailerApi
         }
 
         if ($httpCode > 400 || (isset($result['succeed']) && !$result['succeed'])) {
-            throw new APIException(sprintf(
+            throw new ApiException(sprintf(
                 'API response with status code %s %s',
                 $httpCode,
                 $result['message'] ? $result['message'] : ''
@@ -165,7 +165,7 @@ class LianaMailerApi
         }
 
         if ($result === null) {
-            throw new APIException('API did not return a valid json string');
+            throw new ApiException('API did not return a valid json string');
         }
 
         if (isset($result['result'])) {
